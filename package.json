@@ -1,0 +1,41 @@
+{
+  "name": "entregafacil",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-navigation/bottom-tabs": "^6.5.20",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.3.29",
+    "@types/react": "~18.2.79",
+    "axios": "^1.7.2",
+    "expo": "~51.0.8",
+    "expo-status-bar": "~1.12.1",
+    "jwt-decode": "^4.0.0",
+    "phosphor-react-native": "^2.0.0",
+    "react": "18.2.0",
+    "react-hook-form": "^7.51.5",
+    "react-native": "0.74.1",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-mmkv": "^2.12.2",
+    "react-native-safe-area-context": "4.10.1",
+    "react-native-screens": "3.31.1",
+    "react-native-svg": "^15.3.0",
+    "styled-components": "^6.1.11",
+    "typescript": "~5.3.3",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "react-native-svg-transformer": "^1.4.0"
+  },
+  "private": true,
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
